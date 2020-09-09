@@ -27,7 +27,7 @@
                     </a>
                     <a
                         *ngIf="editEnabled"
-                        class="btn btn-danger btn-sm text-white btn-icon btn-3" 
+                        class="btn btn-warning btn-sm text-white btn-icon btn-3" 
                         (click)="toggleEdit()"
                     > 
                         <span class="btn-inner--icon"><i class="fas fa-arrow-left"></i></span>
@@ -35,7 +35,7 @@
                     </a>
                     <a 
                         *ngIf="editEnabled"
-                        class="btn btn-success btn-sm text-white btn-icon btn-3" 
+                        class="btn btn-default btn-sm text-white btn-icon btn-3" 
                         (click)="confirm()"
                     > 
                         <span class="btn-inner--icon"><i class="fas fa-save"></i></span>
